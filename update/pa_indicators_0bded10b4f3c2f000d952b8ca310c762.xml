@@ -3,6 +3,8 @@
         <aggregate>1</aggregate>
         <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
         <benchmarking>false</benchmarking>
+        <calendar/>
+        <calendar_freq/>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
         <conditions/>
@@ -34,7 +36,7 @@ Channel = G9LAJG7G8</description>
         <frequency>10</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>134</id>
+        <id>138</id>
         <key>false</key>
         <label/>
         <linked_indicator/>

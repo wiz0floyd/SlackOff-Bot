@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="Slacker">090bc26b4f6467000d952b8ca310c7ae</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter table="sys_script">collection=x_165574_slackoff_slacker_text_tracker^EQ<item endquery="false" field="collection" goto="false" newquery="false" operator="=" or="false" value="x_165574_slackoff_slacker_text_tracker"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

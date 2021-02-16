@@ -9,6 +9,7 @@ $color-lighter: #E6E8EA;&#13;
 $color-lightest: #FFFFFF;&#13;
 $color-darkest : #343D47;</css_variables>
         <default>false</default>
+        <enable_ais>false</enable_ais>
         <hide_portal_name>false</hide_portal_name>
         <homepage/>
         <icon/>
@@ -21,6 +22,8 @@ $color-darkest : #343D47;</css_variables>
         <sc_catalog/>
         <sc_catalog_page/>
         <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
         <sp_chat_queue/>
         <sp_rectangle_menu/>
         <sqanda_knowledge_base/>
