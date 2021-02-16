@@ -38,7 +38,7 @@
 		var numbermatch = numbertest.exec(match[0]);
 		var ctof = (parseFloat(numbermatch[0]) * 9/5) + 32;
 		var originalnumber = parseFloat(numbermatch[0]).toFixed(2).toString().slice(-3) == '.00' ? parseFloat(numbermatch[0]).toFixed(2).toString().slice(0, -3) : parseFloat(numbermatch[0]).toFixed(2);
-		var send_chat = new SlackFall().send_chat(current.channel, originalnumber + 'C is ' + ctof.toFixed(2) + ' degrees in freedom units (Fahrenheit).', false, '', current.thread_ts);
+		var send_chat = new SlackFall().send_chat(current.channel, originalnumber + 'C is ' + ctof.toFixed(2) + ' degrees in freedom units (Fahrenheit).:eagle:', false, '', current.thread_ts);
 	}
 	
 	var regextest2 = /(\w|\n|\t|\r|-)(\d{1,}\.?\d{0,}\s?f(ahrenheit)?(?!>|\|)(\W|\n|\t|\r|$))|(\w|\n|\t|\r|-)(\d{1,}\.?\d{0,}\sdegrees\sf(ahrenheit)?(?!>|\|)(\W|\n|\t|\r|$))/gmi;
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ae59438413136f801f2f53173244b0b7</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Degrees Converter</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slacker" source="x_165574_slackoff">33504e2b4f2467000d952b8ca310c7d1</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Slacker">33504e2b4f2467000d952b8ca310c7d1</sys_scope>
         <sys_update_name>sys_script_ae59438413136f801f2f53173244b0b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-16 17:57:25</sys_updated_on>
+        <sys_updated_on>2021-02-16 18:12:45</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>
